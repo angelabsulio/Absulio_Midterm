@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Roles in Data Science/Big Data Industry</title>
+</head>
+<body>
+	<h1>Job Roles in Data Science/Big Data Industry</h1>
+	<ul>
+	{% for jobrole in jobroles %}
+		<li>{{ jobrole }}<br>
+			Character count: {{ jobrole|length }}</li>
+	{% endfor %}
+	</ul>
+</body>
+</html>
